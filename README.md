@@ -73,33 +73,110 @@ Want to join? [See Contributing Guidelines](CONTRIBUTING.md)
 
 ---
 
-## 🏆 Features Overview
+## 🏆 Key Features
 
-| Category                  | Module Name              | Description                                                                                 |
-|---------------------------|-------------------------|---------------------------------------------------------------------------------------------|
-| **Web Security**          | SQL Injection Scanner   | Automated SQLi detection with payload fuzzing and error fingerprinting                       |
-|                           | Subdirectory Finder     | Detects hidden directories and admin pages                                                  |
-|                           | Deep Site Scanner       | Full content discovery, crawling, and vulnerability analysis                                |
-|                           | Brute Force Simulator   | Username/password brute force attacks with smart detection                                  |
-|                           | Admin/Login Finder      | Finds hidden admin/login panels with advanced heuristics                                    |
-|                           | Header Analyzer         | Finds HTTP header misconfigurations, missing security headers                               |
-|                           | SSL/TLS Checker         | Checks for SSL issues, certificate chain, expiry, ciphers                                   |
-|                           | Firewall Detector       | Identifies WAFs, firewalls, and behavioral defense                                          |
-|                           | Phishing AI             | AI-powered phishing email/page/content generator & simulator                                |
-| **Network & Infra**       | Port Scanner            | Fast, multi-threaded scanning (top 100/1000/all/custom)                                     |
-|                           | DNS Enumeration         | A, AAAA, MX, NS, TXT, CNAME, SOA, PTR, SRV records                                         |
-|                           | Subdomain Finder        | Discovers subdomains with large wordlists and concurrency                                   |
-| **Windows Offensive (GUI)**| InfoStealer Builder    | Customizable stealer generator for research (GUI)                                           |
-|                           | RDP Sec (RAT)           | RAT simulator for blue team defense (GUI)                                                   |
-|                           | RansomApp               | File encryption lab for research simulation (GUI)                                           |
-|                           | SystemTroll             | System crash/test simulator (GUI)                                                           |
-| **AI & Automation**       | Sploit Chatbot          | ML/AI-powered Q&A and assistant for security topics                                         |
-|                           | PhishCreator AI         | Generates realistic phishing scenarios/content with ML                                      |
-| **General**               | Logging & Reporting     | Exports results, logs, and extensive output files                                           |
+---
 
-> **And more!**  
-> Fully modular – add your own modules and scripts easily.  
-> See [Wiki/Modules](https://github.com/AUX-441/Sploit/wiki/Modules) for details.
+### 🌐 Web Security
+
+- 🛡️ **SQL Injection Scanner**  
+  Automated SQLi detection with advanced payload fuzzing and error fingerprinting.
+
+- 🗂️ **Subdirectory Finder**  
+  Uncovers hidden directories/admin paths using powerful wordlists.
+
+- 🔎 **Deep Site Scanner**  
+  Comprehensive crawling & vulnerability analysis for web assets.
+
+- 🪜 **Brute Force Simulator**  
+  Intelligent, adaptive username/password brute force with real-time feedback.
+
+- 🔐 **Admin/Login Finder**  
+  Locates concealed admin/login panels with next-gen heuristics.
+
+- 🧾 **Header Analyzer**  
+  Detects HTTP header misconfigurations & missing security headers.
+
+- 🔑 **SSL/TLS Checker**  
+  Validates certificates, expiry, chain, and supported ciphers.
+
+- 🧱 **Firewall Detector**  
+  Identifies WAFs, firewalls, and advanced defensive mechanisms.
+
+- 🎭 **Phishing AI**  
+  AI-powered phishing email/page/content generator & training simulator.
+
+---
+
+### 🌐🔗 Network & Infrastructure
+
+- 🚀 **Port Scanner**  
+  Lightning-fast, multi-threaded scan (top 100/1000/custom ports).
+
+- 🌐 **DNS Enumeration**  
+  Discover all DNS records: A, AAAA, MX, NS, TXT, CNAME, SOA, PTR, SRV.
+
+- 🏷️ **Subdomain Finder**  
+  Massive concurrent subdomain enumeration with customizable wordlists.
+
+---
+
+### 🪟 Windows Offensive (GUI)
+
+- 🕵️‍♂️ **InfoStealer Builder** *(GUI only)*  
+  Customizable info-stealer generator for research and defense simulation.
+
+- 🖥️ **RDP Sec (RAT)** *(GUI only)*  
+  RAT simulator for blue team defense and training labs.
+
+- 💣 **RansomApp** *(GUI only)*  
+  In-depth ransomware simulation lab for testing and research.
+
+- 🌀 **SystemTroll** *(GUI only)*  
+  System crash/test simulator for resilience and defense scenarios.
+
+---
+
+### 🤖 AI & Automation
+
+- 🤖 **Sploit Chatbot**  
+  ML/AI-powered assistant for security Q&A and module guidance.
+
+- 🧠 **PhishCreator AI**  
+  Generates realistic phishing scenarios/content with machine learning.
+
+---
+
+### 📊 General
+
+- 📝 **Logging & Reporting**  
+  Detailed, exportable logs, reports, and output files for every module.
+
+---
+
+
+### 🎣 Phishing Modules
+
+- 🕹️ **Steam Phishing Generator**  
+  Create advanced, customizable phishing pages targeting Steam authentication flows for awareness and simulation.
+
+- 📸 **Instagram Phishing Generator**  
+  Simulate Instagram login attacks for training, with realistic UI and anti-detection features.
+
+- 📷 **Camera Capture Phishing**  
+  Deploy phishing pages that request or simulate camera access to demonstrate real-world attack scenarios (safety/consent features included).
+
+- 📍 **Location Capture Phishing**  
+  Simulate phishing pages or payloads designed to request geolocation data from targets, for demonstrating the risks of location leaks.
+
+> ⚠️ **For educational, research, and authorized testing only. All modules include warnings and ethical disclaimers.**
+
+
+---
+
+> 💡 **Fully modular:**  
+> Add or customize modules and scripts with ease.  
+> See [Wiki/Modules](https://github.com/AUX-441/Sploit/wiki/Modules) for a full list!
 
 ---
 
