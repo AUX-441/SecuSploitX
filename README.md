@@ -1,6 +1,6 @@
-# Sploit - Advanced Offensive Security & Penetration Testing Suite
+# SecuSploitX - Advanced Offensive Security & Penetration Testing Suite
 
-![Sploit Banner](assets/sploit_banner.png)
+![SecuSploitX Banner](assets/sploit_banner.png)
 
 > **All-in-One Cybersecurity & AI Offensive Toolkit**  
 > By the AUX-441 Team | Red Team, Blue Team, AI Security, and More  
@@ -10,20 +10,20 @@
 
 <div align="center">
 
-![Sploit GUI Screenshot](assets/sploit_gui.png)
+![SecuSploitX GUI Screenshot](assets/sploit_gui.png)
 *Graphical User Interface (GUI)*
 
-![Sploit Terminal Screenshot](assets/sploit_terminal.png)
+![SecuSploitX Terminal Screenshot](assets/sploit_terminal.png)
 *Terminal / CLI Mode*
 
 </div>
 
 ---
 
-## 🚩 About Sploit
+## 🚩 About SecuSploitX
 
-**Sploit** is a next-generation, open-source, modular, and extensible penetration testing and cyber defense suite.  
-Inspired by the world’s top tools (Metasploit, Nmap, Burp Suite), Sploit takes security automation to the next level with:
+**SecuSploitX** is a next-generation, open-source, modular, and extensible penetration testing and cyber defense suite.  
+Inspired by the world’s top tools (Metasploit, Nmap, Burp Suite), SecuSploitX takes security automation to the next level with:
 
 - **Web & Network Security Modules**
 - **Phishing & Social Engineering Simulators**
@@ -41,13 +41,13 @@ Inspired by the world’s top tools (Metasploit, Nmap, Burp Suite), Sploit takes
 
 ## 🧑‍💻 About Us & Contributors
 
-Sploit is built by a talented, multidisciplinary team:
+SecuSploitX is built by a talented, multidisciplinary team:
 
 ### **Core Team & Roles**
 
 - **Joel**  
   *Lead UI Designer & Visual Planner*  
-  Designs and implements all graphical elements, user flows, and ensures Sploit's GUI is both intuitive and visually compelling.
+  Designs and implements all graphical elements, user flows, and ensures SecuSploitX's GUI is both intuitive and visually compelling.
 
 - **Tara**  
   *Lead Developer & Technical Assistant*  
@@ -55,7 +55,7 @@ Sploit is built by a talented, multidisciplinary team:
 
 - **Fatheme**  
   *AI & Core Developer, Project Lead*  
-  Creator of Sploit's AI modules and architect of offensive/defensive logic for penetration testing and automation. Manages releases and documentation.
+  Creator of SecuSploitX's AI modules and architect of offensive/defensive logic for penetration testing and automation. Manages releases and documentation.
 
 - **aux / AUX-441**  
   *Main Programmer, Security Researcher, Project Lead*  
@@ -139,21 +139,13 @@ Want to join? [See Contributing Guidelines](CONTRIBUTING.md)
 
 ### 🤖 AI & Automation
 
-- 🤖 **Sploit Chatbot**  
+- 🤖 **SecuSploitX Chatbot**  
   ML/AI-powered assistant for security Q&A and module guidance.
 
 - 🧠 **PhishCreator AI**  
   Generates realistic phishing scenarios/content with machine learning.
 
 ---
-
-### 📊 General
-
-- 📝 **Logging & Reporting**  
-  Detailed, exportable logs, reports, and output files for every module.
-
----
-
 
 ### 🎣 Phishing Modules
 
@@ -171,18 +163,24 @@ Want to join? [See Contributing Guidelines](CONTRIBUTING.md)
 
 > ⚠️ **For educational, research, and authorized testing only. All modules include warnings and ethical disclaimers.**
 
+---
+
+### 📊 General
+
+- 📝 **Logging & Reporting**  
+  Detailed, exportable logs, reports, and output files for every module.
 
 ---
 
 > 💡 **Fully modular:**  
 > Add or customize modules and scripts with ease.  
-> See [Wiki/Modules](https://github.com/AUX-441/Sploit/wiki/Modules) for a full list!
+> See [Wiki/Modules](https://github.com/AUX-441/SecuSploitX/wiki/Modules) for a full list!
 
 ---
 
 ## 📦 Installation & Quick Start
 
-Sploit supports all major operating systems and runs on Python 3.13+.  
+SecuSploitX supports all major operating systems and runs on Python 3.13+.  
 **Choose your preferred deployment method:**
 
 ---
@@ -192,8 +190,8 @@ Sploit supports all major operating systems and runs on Python 3.13+.
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AUX-441/Sploit.git
-cd Sploit
+git clone https://github.com/AUX-441/SecuSploitX.git
+cd SecuSploitX
 ```
 #### 2. Install Python dependencies
 
@@ -201,11 +199,11 @@ cd Sploit
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-#### 3. Run Sploit (Terminal/CLI)
+#### 3. Run SecuSploitX (Terminal/CLI)
 ```bash
 python main.py
 ```
-#### 4. Run Sploit (GUI)
+#### 4. Run SecuSploitX (GUI)
 ```bash
 python GUI/Application.py
 ```
@@ -215,7 +213,7 @@ python GUI/Application.py
 
 ### 📱 Android (Termux)
 
-Sploit works fully in [Termux](https://termux.dev/)!
+SecuSploitX works fully in [Termux](https://termux.dev/)!
 
 #### 1. Install Termux & Python
 
@@ -223,11 +221,11 @@ Sploit works fully in [Termux](https://termux.dev/)!
 pkg update && pkg upgrade
 pkg install python git
 ```
-#### 2. Clone Sploit
+#### 2. Clone SecuSploitX
 
 ```bash
-git clone https://github.com/AUX-441/Sploit.git
-cd Sploit
+git clone https://github.com/AUX-441/SecuSploitX.git
+cd SecuSploitX
 ```
 #### 3. Install dependencies
 
@@ -235,7 +233,7 @@ cd Sploit
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-#### 4. Run Sploit (Terminal Mode)
+#### 4. Run SecuSploitX (Terminal Mode)
 
 ```bash
 python main.py
@@ -251,8 +249,8 @@ python main.py
 #### 2. Clone the repository
 
 ```powershell
-git clone https://github.com/AUX-441/Sploit.git
-cd Sploit
+git clone https://github.com/AUX-441/SecuSploitX.git
+cd SecuSploitX
 ```
 
 #### 3. Install dependencies
@@ -262,7 +260,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-#### 4. Run Sploit (Terminal or GUI)
+#### 4. Run SecuSploitX (Terminal or GUI)
 
 ```powershell
 python main.py
@@ -284,22 +282,22 @@ python GUI\Application.py
 #### 2. Build the Docker Image
 
 ```bash
-cd Sploit
-docker build -t sploit .
+cd SecuSploitX
+docker build -t secusploitx .
 ```
 
-#### 3. Run Sploit (Terminal/CLI)
+#### 3. Run SecuSploitX (Terminal/CLI)
 
 ```bash
-docker run -it --rm sploit
+docker run -it --rm secusploitx
 ```
 
-#### 4. Run Sploit (GUI mode, X11 on Linux)
+#### 4. Run SecuSploitX (GUI mode, X11 on Linux)
 
 ```bash
-docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix sploit python GUI/Application.py
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix secusploitx python GUI/Application.py
 ```
-> For Docker GUI usage on Windows/Mac: [See Wiki for X11/GUI details](https://github.com/AUX-441/Sploit/wiki/Docker-GUI)
+> For Docker GUI usage on Windows/Mac: [See Wiki for X11/GUI details](https://github.com/AUX-441/SecuSploitX/wiki/Docker-GUI)
 
 #### **Dockerfile Example:**
 ```Dockerfile
@@ -332,7 +330,7 @@ CMD ["python", "main.py"]
 
 ## 🛠️ Usage
 
-Sploit is designed to be intuitive for both beginners and pros.
+SecuSploitX is designed to be intuitive for both beginners and pros.
 
 ### Terminal Mode
 
@@ -370,17 +368,17 @@ python main.py
 2. Click "Deep Site Scanner"
 3. Enter target, configure, and export report
 
-> See [Wiki/Modules](https://github.com/AUX-441/Sploit/wiki/Modules) for detailed usage of every module.
+> See [Wiki/Modules](https://github.com/AUX-441/SecuSploitX/wiki/Modules) for detailed usage of every module.
 
 ---
 
 ## 📚 Documentation & Help
 
-- **[Wiki & Usage Guide](https://github.com/AUX-441/Sploit/wiki)**
-- **[Module Reference](https://github.com/AUX-441/Sploit/wiki/Modules)**
-- **[FAQ](https://github.com/AUX-441/Sploit/discussions/categories/q-a)**
-- **[Issue Tracker](https://github.com/AUX-441/Sploit/issues)**
-- **[Discussions & Community](https://github.com/AUX-441/Sploit/discussions)**
+- **[Wiki & Usage Guide](https://github.com/AUX-441/SecuSploitX/wiki)**
+- **[Module Reference](https://github.com/AUX-441/SecuSploitX/wiki/Modules)**
+- **[FAQ](https://github.com/AUX-441/SecuSploitX/discussions/categories/q-a)**
+- **[Issue Tracker](https://github.com/AUX-441/SecuSploitX/issues)**
+- **[Discussions & Community](https://github.com/AUX-441/SecuSploitX/discussions)**
 
 ---
 
@@ -405,7 +403,7 @@ python main.py
 
 ## 🌟 Credits & Acknowledgments
 
-**Sploit** is the result of passion, expertise, and open-source spirit.  
+**SecuSploitX** is the result of passion, expertise, and open-source spirit.  
 Special thanks to:
 
 - **Joel** – UI/UX Design, Branding  
@@ -417,7 +415,7 @@ Special thanks to:
 - [FAtheme](https://github.com/FAtheme) – Module Testing  
 - [AUX-441](https://github.com/AUX-441) – Project Lead
 
-And all contributors at [GitHub Contributors](https://github.com/AUX-441/Sploit/graphs/contributors)
+And all contributors at [GitHub Contributors](https://github.com/AUX-441/SecuSploitX/graphs/contributors)
 
 ---
 
@@ -437,7 +435,7 @@ No commercial use, copy, or redistribution without written consent.
 
 ## 📬 Contact & Community
 
-- [GitHub Discussions](https://github.com/AUX-441/Sploit/discussions)
+- [GitHub Discussions](https://github.com/AUX-441/SecuSploitX/discussions)
 - [Telegram Channel](https://t.me/aux441_team)
 - **Email for support, bug reports, and security issues:**  
   📧 **submindf@gmail.com**
